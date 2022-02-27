@@ -19,8 +19,10 @@ Schmitt Trigger is a very important circuit as far as both analog & digital elec
 ![image](https://user-images.githubusercontent.com/68592620/155884086-e95bd774-3d90-4971-b1d4-54729fadf00a.png)
 
 Since the circuit has positive feedback, the output of the circuit can only be upper or lower saturation voltage levels of the circuit. Due to positive feedback, the transfer function of the circuit has different forward and backward paths i.e., Hysteresis curve is obtained. There are upper and lower threshold voltage levels in input, depending on which the output level is determined. So, if an alternating, periodic sinusoidal or triangular input signal is given to the circuit, a square waveform is obtained at the output.
-When a transmitted signal is received at a receiver, the signal is generally affected by noise during transmission, so at the end of receiver, a Schmitt trigger is used to remove noise from the received signal and produce a clean digital signal at the output, due to its hysteresis shaped transfer characteristics. So, it takes noisy signals & produces signal with clean and ripple free transitions.  
-![image](https://user-images.githubusercontent.com/68592620/155884141-9ae20032-3033-425d-b6c4-c4304e9d6171.png) 
+When a transmitted signal is received at a receiver, the signal is generally affected by noise during transmission, so at the end of receiver, a Schmitt trigger is used to remove noise from the received signal and produce a clean digital signal at the output, due to its hysteresis shaped transfer characteristics. So, it takes noisy signals & produces signal with clean and ripple free transitions.
+
+![image](https://user-images.githubusercontent.com/68592620/155884536-068faa2c-0081-47d9-a8b9-af3cf728d736.png)  
+
 In general, it works as an inverter which consists of two PMOS transistors, two NMOS transistors, one feedback PMOS transistor and one feedback NMOS transistor. The output is high when the input is below the negative threshold voltage, while the output is low if the input exceeds the positive threshold voltage. By calibrating the transistor’s performances and dimensions, the threshold voltages can be adjusted and controlled (PMOS and NMOS).
 # Circuit Design
 The schematic of the circuit design is shown below.  
