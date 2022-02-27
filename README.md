@@ -84,7 +84,7 @@ v9 vin gnd! dc=0 sin ( 0 0.15 30 0 0 0 )
 .option primesim_output=wdf
 .option parhier = LOCAL
 ```
-# Acknowledgements
+# Acknowledgement
 ▫️ [Cloud Based Analog IC Design Hackathon](https://hackathoniith.in/')  
 ▫️ [Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/?originalSubdomain=in/')  
 ▫️ [Synopsys India](https://www.synopsys.com/')  
