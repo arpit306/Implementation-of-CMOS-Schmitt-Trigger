@@ -28,4 +28,6 @@ After creating the symbol of theis design, a testbench file was created in which
 
 # Waveform
 After simulation the given waveforms are observed.
+[1] When Sine Wave is given as input
 
+![wave](https://user-images.githubusercontent.com/68592620/155878424-39ef3a96-d546-4c35-9cb7-3df1be4ef369.png)
