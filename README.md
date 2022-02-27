@@ -114,9 +114,9 @@ v9 vin gnd! dc=0 sin ( 0 0.15 30 0 0 0 )
 
 -[VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/')
 
--[Chinmay panda, IIT Hyderabad]
+-Chinmay panda, IIT Hyderabad
 
--[Sumanto Kar, IIT Bombay]
+-Sumanto Kar, IIT Bombay
 
--[Shafali Jagga, IPEC Ghaziabad]
+-Shafali Jagga, IPEC Ghaziabad
 
