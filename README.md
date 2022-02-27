@@ -28,7 +28,7 @@ __Reference Waveform:__
 ![image](https://user-images.githubusercontent.com/68592620/155884536-068faa2c-0081-47d9-a8b9-af3cf728d736.png)
 
 In general, it works as an inverter which consists of two PMOS transistors, two NMOS transistors, one feedback PMOS transistor and one feedback NMOS transistor. The output is high when the input is below the negative threshold voltage, while the output is low if the input exceeds the positive threshold voltage. By calibrating the transistor’s performances and dimensions, the threshold voltages can be adjusted and controlled (PMOS and NMOS).
-# Circuit Design
+## Circuit Design
 The schematic of the circuit design is shown below.  
 ![image](https://user-images.githubusercontent.com/68592620/155879444-6a8a5372-9e19-4bef-8dc5-2c24899f2ace.png)  
 After creating the symbol of this design, a testbench file was created in which proper sources were added to the design as shown below.
@@ -94,7 +94,7 @@ v9 vin gnd! dc=0 sin ( 0 0.15 30 0 0 0 )
 ▫️ Sumanto Kar, IIT Bombay  
 ▫️ Chinmay Panda, IIT Hyderabad  
 ▫️ Shafali Jagga, IPEC Ghaziabad
-# References
+## References
 1. Konjeti V K V L Pavan Kumar, K L University "Design and Analysis of CMOS Schmitt Trigger"
 2. Pranay Kumar Rahi, Shashi Dewangan, Tanuj Yadav, Md Muzaherul Haque, “Design and Simulation of CMOS Schmitt Trigger” IJISET - International Journal of Innovative Science, Engineering & Technology, Vol. 3 Issue 8, August 2016.
 3. Nahid A Jahan, Mohammad Fairuz Bin Amir, Md. Ashraful Islam, M Mofazzal Hossain, Mamun Bin Ibne Reaz, “Design and Performance Analysis of Low Voltage and Low Power Schmitt Trigger for 0.18 μm CMOS Process” IOSR Journal of VLSI and Signal Processing (IOSR-JVSP) Volume 11, Issue 3, Ser. I (May. - June. 2021), PP 01-17.
