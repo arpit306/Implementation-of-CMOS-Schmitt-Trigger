@@ -6,7 +6,7 @@ This repository presents the design of Schmitt Trigger implemented using Synopsy
 ▫️[Circuit Description](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#circuit-description)  
 ▫️[Circuit Design](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#circuit-design)  
 ▫️[Waveform](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#waveform)  
-▫️[Spice Netist](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#spice-netlist)  
+▫️[Spice Netlist](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#spice-netlist)  
 ▫️[Acknowledgement](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#acknowledgements)  
 ▫️[References](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#references)  
 ## Abstract
