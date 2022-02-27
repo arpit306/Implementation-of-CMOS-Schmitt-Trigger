@@ -26,3 +26,6 @@ The Schematic of the Circuit Design is shown below.
 After creating the symbol of theis design, a testbench file was created in which proper sources were added to the design, shown below.
 ![tb](https://user-images.githubusercontent.com/68592620/155878327-c9ef74f8-5cf5-434e-9c81-d0d568a050ff.png)
 
+# Waveform
+After simulation the given waveforms are observed.
+
