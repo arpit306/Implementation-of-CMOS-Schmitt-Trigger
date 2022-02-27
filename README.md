@@ -37,4 +37,70 @@ After simulation the given waveforms are observed.
 
 ![image](https://user-images.githubusercontent.com/68592620/155878502-739721fc-b7a3-42cc-82e5-cdc8a2e9f126.png)
 
+# Spice Netlist
 
+```
+*  Generated for: PrimeSim
+*  Design library name: arpit_lib
+*  Design cell name: Schmitt_trigger_tb
+*  Design view name: schematic
+.lib 'hspice/saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Sun Feb 27 09:16:53 2022
+
+.global gnd!
+********************************************************************************
+* Library          : arpit_lib
+* Cell             : Schmitt_trigger
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt schmitt_trigger gnd_1 vdd vin vout
+xm15 gnd_1 vout net11 net11 p105 w=0.9u l=2.4u nf=1 m=1
+xm1 vout vin net6 net6 p105 w=1.5u l=0.03u nf=1 m=1
+xm0 net11 vin vdd vdd p105 w=1.5u l=0.03u nf=1 m=1
+xm14 vdd vout net29 net29 n105 w=0.8u l=2.1u nf=1 m=1
+xm5 net29 vin gnd_1 gnd_1 n105 w=3.5u l=0.03u nf=1 m=1
+xm7 vout vin net29 net29 n105 w=3.5u l=30n nf=1 m=1
+.ends schmitt_trigger
+
+********************************************************************************
+* Library          : arpit_lib
+* Cell             : Schmitt_trigger_tb
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi10 gnd! net2 vin vout schmitt_trigger
+v3 net2 gnd! dc=1.8
+v9 vin gnd! dc=0 sin ( 0 0.15 30 0 0 0 )
+
+
+
+
+
+
+
+
+.tran '0.001*(20m-0)' '20m' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(vin) v(vout)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+```
