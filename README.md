@@ -1,3 +1,4 @@
+## Implementation of CMOS Schmitt Trigger
 # Table of contents
 ▫️[Abstract](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#abstract)  
 ▫️[Tools used](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#tool-used)  
