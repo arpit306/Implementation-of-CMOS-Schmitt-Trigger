@@ -45,7 +45,6 @@ After simulation the given waveforms are observed.
 ![image](https://user-images.githubusercontent.com/68592620/155878502-739721fc-b7a3-42cc-82e5-cdc8a2e9f126.png)
 
 # Spice Netlist
-
 ```
 *  Generated for: PrimeSim
 *  Design library name: arpit_lib
@@ -103,4 +102,4 @@ v9 vin gnd! dc=0 sin ( 0 0.15 30 0 0 0 )
 # References
 1. Pranay Kumar Rahi, Shashi Dewangan, Tanuj Yadav, Md Muzaherul Haque, “Design and Simulation of CMOS Schmitt Trigger” IJISET - International Journal of Innovative Science, Engineering & Technology, Vol. 3 Issue 8, August 2016.
 2. Nahid A Jahan, Mohammad Fairuz Bin Amir, Md. Ashraful Islam, M Mofazzal Hossain, Mamun Bin Ibne Reaz, “Design and Performance Analysis of Low Voltage and Low Power Schmitt Trigger for 0.18 μm CMOS Process” IOSR Journal of VLSI and Signal Processing (IOSR-JVSP) Volume 11, Issue 3, Ser. I (May. - June. 2021), PP 01-17.
-3. Konjeti V K V L Pavan Kumar, K L University "Design and Analysis of CMOS Schmitt Trigger" https://www.researchgate.net/publication/334192413
+3. Konjeti V K V L Pavan Kumar, K L University "Design and Analysis of CMOS Schmitt Trigger"https://www.researchgate.net/publication/334192413
