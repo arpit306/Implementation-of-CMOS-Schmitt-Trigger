@@ -8,18 +8,18 @@
 -[Acknowledgements](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#acknowledgements)  
 -[References](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#references)  
 # Abstract
-This repository presents the Analog IC design and implementation of a CMOS Schmitt Trigger Circuit. This Implementation is done on Sysnopsys Custom Compiler Tool and libraries available on Cloud platform using 28nm Technology. The Schmitt Trigger is a comparator circuit that incorporates positive feedback, are extensively used in digital as well as analog systems to filter out any noise present in a signal line and produce a clean digital signal. The working of design is verified using Circuit Schematic and Waveforms.
+This repository presents the Analog IC design and implementation of a CMOS Schmitt Trigger Circuit. This implementation is done on Sysnopsys Custom Compiler tool and libraries available on cloud platform using 28nm technology. The Schmitt Trigger is a comparator circuit that incorporates positive feedback, are extensively used in digital as well as analog systems to filter out any noise present in a signal line and produce a clean digital signal. The working of design is verified using Circuit Schematic and Waveforms.
 # Tool used
 The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. It delivers industry-leading productivity, performance, and ease-of-use while remaining easy to adopt for users of legacy tools. The Custom Compiler design environment includes features for mixed-signal design entry, design debug, simulation management, analysis and reporting.
 
 ![155880341-35eceee8-282e-433a-9b72-63bee758ffb1](https://user-images.githubusercontent.com/68592620/155882760-832f2e1b-67cf-4f46-9309-bac0c4960290.png)
 
 # Circuit Description
-Schmitt Trigger is a very Important circuit as far as both Analog & Digital Electronics is concerned. It has got a wide range of applications in mixed signal circuits also. Schmitt Trigger is basically a Voltage comparator, but with positive feedback employed in the circuit. Schmitt Trigger’s circuit can be made from an Op-Amp, 555 timer IC and at transistor level as well. It is also called as Bistable Multivibrator, because it has two stable states and the transition from one state to another requires an external stimulus, this is the concept which gives rise to flip flops in digital electronics.
+Schmitt Trigger is a very important circuit as far as both analog & digital electronics is concerned. It has got a wide range of applications in mixed signal circuits also. Schmitt Trigger is basically a voltage comparator, but with positive feedback employed in the circuit. Schmitt Trigger’s circuit can be made from an Op-Amp, 555 timer IC and at transistor level as well. It is also called as bistable multivibrator, because it has two stable states and the transition from one state to another requires an external stimulus, this is the concept which gives rise to flip flops in digital electronics.
 
 ![image](https://user-images.githubusercontent.com/68592620/155877842-2f53de68-6fd2-4560-97c2-e0a290b0cc36.png)    ![image](https://user-images.githubusercontent.com/68592620/155878141-adc900df-68ba-4423-bc33-284641f0f708.png)
 
-Since the circuit has positive feedback, the output of the circuit can only be upper or lower saturation voltage levels of the circuit. Due to positive feedback, the transfer function of the circuit has different forward and backward paths i.e., Hysteresis curve is obtained. There are upper and lower threshold voltage levels in input, depending on which the output level is determined. So, if an alternating, periodic Sinusoidal or Triangular input signal is given to the circuit, a square waveform is obtained at the output.
+Since the circuit has positive feedback, the output of the circuit can only be upper or lower saturation voltage levels of the circuit. Due to positive feedback, the transfer function of the circuit has different forward and backward paths i.e., Hysteresis curve is obtained. There are upper and lower threshold voltage levels in input, depending on which the output level is determined. So, if an alternating, periodic sinusoidal or triangular input signal is given to the circuit, a square waveform is obtained at the output.
 When a transmitted signal is received at a receiver, the signal is generally affected by noise during transmission, so at the end of receiver, a Schmitt trigger is used to remove noise from the received signal and produce a clean digital signal at the output, due to its hysteresis shaped transfer characteristics. So, it takes noisy signals & produces signal with clean and ripple free transitions.
 
 ![image](https://user-images.githubusercontent.com/68592620/155878054-baf1dc7f-796f-44bf-92aa-5ac617bc5eae.png)
@@ -27,10 +27,10 @@ When a transmitted signal is received at a receiver, the signal is generally aff
 In general, it works as an inverter which consists of two PMOS transistors, two NMOS transistors, one feedback PMOS transistor and one feedback NMOS transistor. The output is high when the input is below the negative threshold voltage, while the output is low if the input exceeds the positive threshold voltage. By calibrating the transistor’s performances and dimensions, the threshold voltages can be adjusted and controlled (PMOS and NMOS).
 
 # Circuit Design
-The Schematic of the Circuit Design is shown below.
+The schematic of the circuit design is shown below.
 ![image](https://user-images.githubusercontent.com/68592620/155879444-6a8a5372-9e19-4bef-8dc5-2c24899f2ace.png)
 
-After creating the symbol of theis design, a testbench file was created in which proper sources were added to the design, shown below.
+After creating the symbol of this design, a testbench file was created in which proper sources were added to the design as shown below.
 ![tb](https://user-images.githubusercontent.com/68592620/155878327-c9ef74f8-5cf5-434e-9c81-d0d568a050ff.png)
 
 # Waveform
