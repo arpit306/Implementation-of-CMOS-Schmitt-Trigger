@@ -28,8 +28,7 @@ In general, it works as an inverter which consists of two PMOS transistors, two 
 
 # Circuit Design
 The schematic of the circuit design is shown below.  
-![image](https://user-images.githubusercontent.com/68592620/155879444-6a8a5372-9e19-4bef-8dc5-2c24899f2ace.png)
-
+![image](https://user-images.githubusercontent.com/68592620/155879444-6a8a5372-9e19-4bef-8dc5-2c24899f2ace.png)  
 After creating the symbol of this design, a testbench file was created in which proper sources were added to the design as shown below.
 ![tb](https://user-images.githubusercontent.com/68592620/155878327-c9ef74f8-5cf5-434e-9c81-d0d568a050ff.png)
 
