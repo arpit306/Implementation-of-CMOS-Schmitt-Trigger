@@ -88,7 +88,7 @@ v9 vin gnd! dc=0 sin ( 0 0.15 30 0 0 0 )
 ▫️ Chinmay Panda, IIT Hyderabad  
 ▫️ Shafali Jagga, IPEC Ghaziabad
 # References
-[1.] Konjeti V K V L Pavan Kumar, K L University "Design and Analysis of CMOS Schmitt Trigger" https://www.researchgate.net/publication/334192413
+[1.] Konjeti V K V L Pavan Kumar, K L University "Design and Analysis of CMOS Schmitt Trigger"
 
 [2.] Pranay Kumar Rahi, Shashi Dewangan, Tanuj Yadav, Md Muzaherul Haque, “Design and Simulation of CMOS Schmitt Trigger” IJISET - International Journal of Innovative Science, Engineering & Technology, Vol. 3 Issue 8, August 2016.
 
