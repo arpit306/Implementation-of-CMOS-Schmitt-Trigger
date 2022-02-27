@@ -9,7 +9,7 @@ The Synopsys Custom Compiler™ design environment is a modern solution for full
 
 # Circuit Description
 Schmitt Trigger is a very Important circuit as far as both Analog & Digital Electronics is concerned. It has got a wide range of applications in mixed signal circuits also. Schmitt Trigger is basically a Voltage comparator, but with positive feedback employed in the circuit. Schmitt Trigger’s circuit can be made from an Op-Amp, 555 timer IC and at transistor level as well. It is also called as Bistable Multivibrator, because it has two stable states and the transition from one state to another requires an external stimulus, this is the concept which gives rise to flip flops in digital electronics.
-
+![image](https://user-images.githubusercontent.com/68592620/155877842-2f53de68-6fd2-4560-97c2-e0a290b0cc36.png)
 Since the circuit has positive feedback, the output of the circuit can only be upper or lower saturation voltage levels of the circuit. Due to positive feedback, the transfer function of the circuit has different forward and backward paths i.e., Hysteresis curve is obtained. There are upper and lower threshold voltage levels in input, depending on which the output level is determined. So, if an alternating, periodic Sinusoidal or Triangular input signal is given to the circuit, a square waveform is obtained at the output.
 When a transmitted signal is received at a receiver, the signal is generally affected by noise during transmission, so at the end of receiver, a Schmitt trigger is used to remove noise from the received signal and produce a clean digital signal at the output, due to its hysteresis shaped transfer characteristics. So, it takes noisy signals & produces signal with clean and ripple free transitions.
 
