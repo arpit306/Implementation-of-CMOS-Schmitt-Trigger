@@ -14,7 +14,7 @@ The Synopsys Custom Compiler™ design environment is a modern solution for full
 
 ![155880341-35eceee8-282e-433a-9b72-63bee758ffb1](https://user-images.githubusercontent.com/68592620/155882760-832f2e1b-67cf-4f46-9309-bac0c4960290.png)  
 # Circuit Description
-Schmitt Trigger is a very important circuit as far as both analog & digital electronics is concerned. It has got a wide range of applications in mixed signal circuits also. Schmitt Trigger is basically a voltage comparator, but with positive feedback employed in the circuit. Schmitt Trigger’s circuit can be made from an Op-Amp, 555 timer IC and at transistor level as well. It is also called as bistable multivibrator because it has two stable states and the transition from one state to another requires an external stimulus, this is the concept which gives rise to flip flops in digital electronics.
+Schmitt Trigger is a very important circuit as far as both analog & digital electronics is concerned. It has got a wide range of applications in mixed signal circuits also. Schmitt Trigger is basically a voltage comparator, but with positive feedback employed in the circuit. Schmitt Trigger’s circuit can be made from an Op-Amp, 555 timer IC and at transistor level as well. It is also called as bistable multivibrator because it has two stable states and the transition from one state to another requires an external stimulus. This concept gives rise to flip flops in digital electronics.
 
 ![image](https://user-images.githubusercontent.com/68592620/155884086-e95bd774-3d90-4971-b1d4-54729fadf00a.png)
 
