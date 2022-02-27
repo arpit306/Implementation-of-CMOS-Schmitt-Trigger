@@ -35,6 +35,6 @@ After simulation the given waveforms are observed.
 
 [2] When Traingular wave is given as input
 
-![image](https://user-images.githubusercontent.com/68592620/155878482-97541dc2-777b-470c-aaf5-8806d3904100.png)
+![image](https://user-images.githubusercontent.com/68592620/155878502-739721fc-b7a3-42cc-82e5-cdc8a2e9f126.png)
 
 
