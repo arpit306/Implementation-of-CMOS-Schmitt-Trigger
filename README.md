@@ -118,5 +118,5 @@ v9 vin gnd! dc=0 sin ( 0 0.15 30 0 0 0 )
 
 -Sumanto Kar, IIT Bombay
 
--Shafali Jagga, IPEC Ghaziabad
+-Shafali Jagga, IPEC Gzb
 
