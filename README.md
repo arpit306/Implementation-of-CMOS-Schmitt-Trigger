@@ -12,7 +12,7 @@ This repository presents the Analog IC design and Implementation of a CMOS Schmi
 # Tool used
 The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. It delivers industry-leading productivity, performance, and ease-of-use while remaining easy to adopt for users of legacy tools. The Custom Compiler design environment includes features for mixed-signal design entry, design debug, simulation management, analysis, and reporting.
 
-![image](https://user-images.githubusercontent.com/68592620/155877670-aca96fef-b256-4cef-85a3-668fcca537f9.png)
+![image](https://user-images.githubusercontent.com/68592620/155880341-35eceee8-282e-433a-9b72-63bee758ffb1.png)
 
 # Circuit Description
 Schmitt Trigger is a very Important circuit as far as both Analog & Digital Electronics is concerned. It has got a wide range of applications in mixed signal circuits also. Schmitt Trigger is basically a Voltage comparator, but with positive feedback employed in the circuit. Schmitt Trigger’s circuit can be made from an Op-Amp, 555 timer IC and at transistor level as well. It is also called as Bistable Multivibrator, because it has two stable states and the transition from one state to another requires an external stimulus, this is the concept which gives rise to flip flops in digital electronics.
