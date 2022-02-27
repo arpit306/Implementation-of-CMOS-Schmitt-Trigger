@@ -77,31 +77,13 @@ xi10 gnd! net2 vin vout schmitt_trigger
 v3 net2 gnd! dc=1.8
 v9 vin gnd! dc=0 sin ( 0 0.15 30 0 0 0 )
 
-
-
-
-
-
-
-
 .tran '0.001*(20m-0)' '20m' name=tran
-
 .option primesim_remove_probe_prefix = 0
 .probe v(*) i(*) level=1
 .probe tran v(vin) v(vout)
-
 .temp 25
-
-
-
 .option primesim_output=wdf
-
-
 .option parhier = LOCAL
-
-
-
-
 
 ```
 # Acknowledgements
