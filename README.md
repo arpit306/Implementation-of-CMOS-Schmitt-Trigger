@@ -29,9 +29,11 @@ After creating the symbol of this design, a testbench file was created in which 
 # Waveform
 After simulation the given waveforms are observed.  
 ⚪ When Sine Wave is given as input  
-![wave](https://user-images.githubusercontent.com/68592620/155878424-39ef3a96-d546-4c35-9cb7-3df1be4ef369.png)  
+![image](https://user-images.githubusercontent.com/68592620/155883745-61456391-c1d3-460f-a317-f925cd4b9fdd.png)
+ 
 ⚪ When Traingular wave is given as input  
-![image](https://user-images.githubusercontent.com/68592620/155878502-739721fc-b7a3-42cc-82e5-cdc8a2e9f126.png)
+![image](https://user-images.githubusercontent.com/68592620/155883757-8395ecf5-1e13-4b4c-9b3e-15671a2c159c.png)
+
 # Spice Netlist
 ```
 *  Generated for: PrimeSim
