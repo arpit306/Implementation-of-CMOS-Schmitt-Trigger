@@ -1,5 +1,5 @@
-## Implementation of CMOS Schmitt Trigger
-# Table of contents
+# Implementation of CMOS Schmitt Trigger
+## Table of contents
 ▫️[Abstract](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#abstract)  
 ▫️[Tools used](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#tool-used)  
 ▫️[Circuit Description](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#circuit-description)  
@@ -8,13 +8,13 @@
 ▫️[Spice Netist](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#spice-netlist)  
 ▫️[Acknowledgement](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#acknowledgements)  
 ▫️[References](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#references)  
-# Abstract
+## Abstract
 This repository presents the analog IC design and implementation of a CMOS Schmitt Trigger circuit. This implementation is done on Sysnopsys Custom Compiler tool and libraries available on cloud platform using 28nm technology. The Schmitt Trigger is a comparator circuit that incorporates positive feedback, are extensively used in digital as well as analog systems to filter out any noise present in a signal line and produce a clean digital signal. The working of design is verified using Circuit Schematic and Waveforms.
-# Tools used
+## Tools used
 The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. It delivers industry-leading productivity, performance, and ease-of-use while remaining easy to adopt for users of legacy tools. The Custom Compiler design environment includes features for mixed-signal design entry, design debug, simulation management, analysis and reporting.
 
 ![155880341-35eceee8-282e-433a-9b72-63bee758ffb1](https://user-images.githubusercontent.com/68592620/155882760-832f2e1b-67cf-4f46-9309-bac0c4960290.png)  
-# Circuit Description
+## Circuit Description
 Schmitt Trigger is a very important circuit as far as both analog & digital electronics is concerned. It has got a wide range of applications in mixed signal circuits also. Schmitt Trigger is basically a voltage comparator, but with positive feedback employed in the circuit. Schmitt Trigger’s circuit can be made from an Op-Amp, 555 timer IC and at transistor level as well. It is also called as bistable multivibrator because it has two stable states and the transition from one state to another requires an external stimulus. This concept gives rise to flip flops in digital electronics.
 
 ![image](https://user-images.githubusercontent.com/68592620/155884086-e95bd774-3d90-4971-b1d4-54729fadf00a.png)
@@ -33,12 +33,12 @@ The schematic of the circuit design is shown below.
 After creating the symbol of this design, a testbench file was created in which proper sources were added to the design as shown below.
 ![tb](https://user-images.githubusercontent.com/68592620/155878327-c9ef74f8-5cf5-434e-9c81-d0d568a050ff.png)
 
-# Waveform 
+## Waveform 
 ▫️ When Sine Wave is given as input  
 ![image](https://user-images.githubusercontent.com/68592620/155883745-61456391-c1d3-460f-a317-f925cd4b9fdd.png)  
 ▫️ When Traingular wave is given as input  
 ![image](https://user-images.githubusercontent.com/68592620/155883848-f492d37d-7020-46ff-be92-5fa5113b9df7.png)  
-# Spice Netlist
+## Spice Netlist
 ```
 *  Generated for: PrimeSim
 *  Design library name: arpit_lib
@@ -85,7 +85,7 @@ v9 vin gnd! dc=0 sin ( 0 0.15 30 0 0 0 )
 .option primesim_output=wdf
 .option parhier = LOCAL
 ```
-# Acknowledgement
+## Acknowledgement
 ▫️ [Cloud Based Analog IC Design Hackathon](https://hackathoniith.in/')  
 ▫️ [Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/?originalSubdomain=in/')  
 ▫️ [Synopsys India](https://www.synopsys.com/')  
