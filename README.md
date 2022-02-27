@@ -107,10 +107,16 @@ v9 vin gnd! dc=0 sin ( 0 0.15 30 0 0 0 )
 # Acknowledgements
 
 -[Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/?originalSubdomain=in/')
+
 -[Cloud Based Analog IC Design Hackathon](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/')
+
 -[Synopsys India](https://www.synopsys.com/')
+
 -[VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/')
+
 -[Chinmay panda, IIT Hyderabad]
+
 -[Sameer Durgoji, NIT Karnataka]
+
 -[Shafali Jagga, IPEC Ghaziabad]
 
