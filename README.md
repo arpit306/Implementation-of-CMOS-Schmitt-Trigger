@@ -22,3 +22,5 @@ In general, it works as an inverter which consists of two PMOS transistors, two 
 # Circuit Design
 The Schematic of the Circuit Design is shown below.
 ![sch](https://user-images.githubusercontent.com/68592620/155878284-e5c4ed5a-d548-42a0-85a0-c67dc62b83e3.png)
+After creating the symbol of theis design, a testbench file was created in which proper sources were added to the design, shown below.
+
