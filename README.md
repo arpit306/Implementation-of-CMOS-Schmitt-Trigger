@@ -26,14 +26,11 @@ The schematic of the circuit design is shown below.
 After creating the symbol of this design, a testbench file was created in which proper sources were added to the design as shown below.
 ![tb](https://user-images.githubusercontent.com/68592620/155878327-c9ef74f8-5cf5-434e-9c81-d0d568a050ff.png)
 
-# Waveform
-After simulation the given waveforms are observed.  
-⚪ When Sine Wave is given as input  
+# Waveform 
+▫️ When Sine Wave is given as input  
 ![image](https://user-images.githubusercontent.com/68592620/155883745-61456391-c1d3-460f-a317-f925cd4b9fdd.png)
- 
-⚪ When Traingular wave is given as input  
+▫️ When Traingular wave is given as input  
 ![image](https://user-images.githubusercontent.com/68592620/155883757-8395ecf5-1e13-4b4c-9b3e-15671a2c159c.png)
-
 # Spice Netlist
 ```
 *  Generated for: PrimeSim
