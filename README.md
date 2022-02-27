@@ -28,9 +28,9 @@ After creating the symbol of this design, a testbench file was created in which 
 
 # Waveform 
 ▫️ When Sine Wave is given as input  
-![image](https://user-images.githubusercontent.com/68592620/155883745-61456391-c1d3-460f-a317-f925cd4b9fdd.png)
+![image](https://user-images.githubusercontent.com/68592620/155883745-61456391-c1d3-460f-a317-f925cd4b9fdd.png)  
 ▫️ When Traingular wave is given as input  
-![image](https://user-images.githubusercontent.com/68592620/155883757-8395ecf5-1e13-4b4c-9b3e-15671a2c159c.png)
+![image](https://user-images.githubusercontent.com/68592620/155883757-8395ecf5-1e13-4b4c-9b3e-15671a2c159c.png)  
 # Spice Netlist
 ```
 *  Generated for: PrimeSim
@@ -92,5 +92,3 @@ v9 vin gnd! dc=0 sin ( 0 0.15 30 0 0 0 )
 [2] Pranay Kumar Rahi, Shashi Dewangan, Tanuj Yadav, Md Muzaherul Haque, “Design and Simulation of CMOS Schmitt Trigger” IJISET - International Journal of Innovative Science, Engineering & Technology, Vol. 3 Issue 8, August 2016.
 
 [3] Nahid A Jahan, Mohammad Fairuz Bin Amir, Md. Ashraful Islam, M Mofazzal Hossain, Mamun Bin Ibne Reaz, “Design and Performance Analysis of Low Voltage and Low Power Schmitt Trigger for 0.18 μm CMOS Process” IOSR Journal of VLSI and Signal Processing (IOSR-JVSP) Volume 11, Issue 3, Ser. I (May. - June. 2021), PP 01-17.
-
-
