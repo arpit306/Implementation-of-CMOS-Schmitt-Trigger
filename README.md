@@ -19,3 +19,5 @@ When a transmitted signal is received at a receiver, the signal is generally aff
 
 In general, it works as an inverter which consists of two PMOS transistors, two NMOS transistors, one feedback PMOS transistor and one feedback NMOS transistor. The output is high when the input is below the negative threshold voltage, while the output is low if the input exceeds the positive threshold voltage. By calibrating the transistor’s performances and dimensions, the threshold voltages can be adjusted and controlled (PMOS and NMOS).
 
+# Circuit Design
+The Schematic of the Circuit Design is shown below.
