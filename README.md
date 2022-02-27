@@ -116,7 +116,7 @@ v9 vin gnd! dc=0 sin ( 0 0.15 30 0 0 0 )
 
 -[Chinmay panda, IIT Hyderabad]
 
--[Sameer Durgoji, NIT Karnataka]
+-[Sumanto Kar, NIT Karnataka]
 
 -[Shafali Jagga, IPEC Ghaziabad]
 
