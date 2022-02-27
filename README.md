@@ -84,7 +84,6 @@ v9 vin gnd! dc=0 sin ( 0 0.15 30 0 0 0 )
 .temp 25
 .option primesim_output=wdf
 .option parhier = LOCAL
-
 ```
 # Acknowledgements
 
