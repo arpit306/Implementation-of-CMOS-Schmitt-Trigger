@@ -1,7 +1,7 @@
 # Table of contents
--[Abstract](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#circuit-design)  
--[Tool used](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#circuit-design)  
--[Circuit Description](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#circuit-design)  
+-[Abstract](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#abstract)  
+-[Tool used](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#tool-used)  
+-[Circuit Description](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#circuit-description)  
 -[Circuit Design](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#circuit-design)  
 -[Waveform](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#waveform)  
 -[Spice Netist](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#spice-netlist)   
