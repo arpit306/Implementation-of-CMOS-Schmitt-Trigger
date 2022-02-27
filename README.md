@@ -92,7 +92,7 @@ v9 vin gnd! dc=0 sin ( 0 0.15 30 0 0 0 )
 ▫️ [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/')  
 ▫️ Sumanto Kar, IIT Bombay  
 ▫️ Chinmay panda, IIT Hyderabad  
-▫️ Shafali Jagga, IPEC Gzb
+▫️ Shafali Jagga, IPEC Ghaziabad
 # References
 1. Pranay Kumar Rahi, Shashi Dewangan, Tanuj Yadav, Md Muzaherul Haque, “Design and Simulation of CMOS Schmitt Trigger” IJISET - International Journal of Innovative Science, Engineering & Technology, Vol. 3 Issue 8, August 2016.  
 2. Nahid A Jahan, Mohammad Fairuz Bin Amir, Md. Ashraful Islam, M Mofazzal Hossain, Mamun Bin Ibne Reaz, “Design and Performance Analysis of Low Voltage and Low Power Schmitt Trigger for 0.18 μm CMOS Process” IOSR Journal of VLSI and Signal Processing (IOSR-JVSP) Volume 11, Issue 3, Ser. I (May. - June. 2021), PP 01-17.  
