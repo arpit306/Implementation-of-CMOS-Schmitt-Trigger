@@ -36,10 +36,10 @@ After creating the symbol of the design, testbench files were created as shown b
 
 ## Waveform 
 ▫️ When Sine Wave is given as input  
-_Vin = 1.5 V @ 5 KHz, simulation run for 2ms_  
+   _Vin = 1.5 V @ 5 KHz, simulation run for 2ms_  
 ![image](https://user-images.githubusercontent.com/68592620/155997839-cab9a442-2cab-41b4-a18a-8d900857af9e.png)  
 ▫️ When Triangular wave is given as input  
-_Vin = Vpulse: V0 = 0 V, V1 = 1.5 V, tr = tf = 60 us, period = 120 us, simulation run for 2ms_
+   _Vin = Vpulse: V0 = 0 V, V1 = 1.5 V, tr = tf = 60 us, period = 120 us, simulation run for 2ms_
 ![image](https://user-images.githubusercontent.com/68592620/155997913-88b9ff79-5e56-406b-a5f1-877e2e141be4.png)  
 ## Spice Netlist
 __for sine wave__
