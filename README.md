@@ -31,7 +31,7 @@ In general, it works as an inverter which consists of two PMOS transistors, two 
 ## Circuit Design
 The schematic of the circuit design is shown below.  
 ![sch](https://user-images.githubusercontent.com/68592620/155992299-ae7f0f57-df20-4c63-bfda-c9fb64f57282.png)  
-After creating the symbol of this design, a testbench file was created in which proper sources were added to the design as shown below.
+After creating the symbol of the design, testbench files were created as shown below.
 ![image](https://user-images.githubusercontent.com/68592620/155993422-995475b4-8016-40ed-9c27-69d8edf67937.png)
 
 ## Waveform 
