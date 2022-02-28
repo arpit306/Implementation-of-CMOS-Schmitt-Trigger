@@ -36,9 +36,9 @@ After creating the symbol of the design, testbench files were created as shown b
 
 ## Waveform 
 ▫️ When Sine Wave is given as input  
-![image](https://user-images.githubusercontent.com/68592620/155883745-61456391-c1d3-460f-a317-f925cd4b9fdd.png)  
+![wave](https://user-images.githubusercontent.com/68592620/155993731-b26054a4-e40c-4253-979b-15494440e9ff.png)  
 ▫️ When Triangular wave is given as input  
-![image](https://user-images.githubusercontent.com/68592620/155883848-f492d37d-7020-46ff-be92-5fa5113b9df7.png)  
+![wave](https://user-images.githubusercontent.com/68592620/155993796-98b83252-bc03-4a7c-a4aa-df0e17770693.png)  
 ## Spice Netlist
 __for sine wave__
 ```
