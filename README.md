@@ -41,8 +41,9 @@ After creating the symbol of the design, testbench files were created as shown b
 ▫️ When Triangular wave is given as input  
    _Vin = Vpulse: V0 = 0 V, V1 = 1.5 V, tr = tf = 60 us, period = 120 us, simulation run for 2ms_
 ![image](https://user-images.githubusercontent.com/68592620/155997913-88b9ff79-5e56-406b-a5f1-877e2e141be4.png)  
-▫️ DC Transfer Characteristics (Hystseresis Curve)  
-![image](https://user-images.githubusercontent.com/68592620/156039057-c6bf00e7-3c3b-4be6-9d95-5dd5ec041eef.png)  
+▫️ DC Transfer Characteristics (Hystseresis Curve)
+
+![image](https://user-images.githubusercontent.com/68592620/156039357-0a3e855f-fb59-40d2-a093-575ddbd74d8d.png)  
 
 ## Spice Netlist
 __for sine wave__
