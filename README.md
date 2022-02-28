@@ -43,7 +43,7 @@ After creating the symbol of the design, testbench files were created as shown b
 ![image](https://user-images.githubusercontent.com/68592620/155997913-88b9ff79-5e56-406b-a5f1-877e2e141be4.png)  
 ▫️ DC Transfer Characteristics (Hysteresis Curve)  
   _Sweep variable = Vin; Start/Stop: from 0 to 1.5ms_  
-![image](https://user-images.githubusercontent.com/68592620/156040899-00ad5d99-aa9c-409b-8acd-fea4cbf345b6.png)  
+![image](https://user-images.githubusercontent.com/68592620/156041041-c5e55f4c-79cb-47ad-b83b-6323bd73a839.png)  
 
 ## Spice Netlist
 __for sine wave__
