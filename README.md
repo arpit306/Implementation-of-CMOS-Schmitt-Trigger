@@ -142,9 +142,9 @@ v5 vin gnd! dc=0 pulse ( 0 1.5 0 60u 60u 0 120u )
 .end
 ```
 ## Acknowledgement
+▫️ [Synopsys India](https://www.synopsys.com/')
 ▫️ [Cloud Based Analog IC Design Hackathon](https://hackathoniith.in/')  
 ▫️ [Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/?originalSubdomain=in/')  
-▫️ [Synopsys India](https://www.synopsys.com/')    
 ▫️ Sumanto Kar, IIT Bombay  
 ▫️ Shafali Jagga, IPEC Ghaziabad
 ## References
