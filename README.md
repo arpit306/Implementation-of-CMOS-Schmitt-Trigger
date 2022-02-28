@@ -37,7 +37,7 @@ After creating the symbol of this design, a testbench file was created in which 
 ## Waveform 
 ▫️ When Sine Wave is given as input  
 ![image](https://user-images.githubusercontent.com/68592620/155883745-61456391-c1d3-460f-a317-f925cd4b9fdd.png)  
-▫️ When Traingular wave is given as input  
+▫️ When Triangular wave is given as input  
 ![image](https://user-images.githubusercontent.com/68592620/155883848-f492d37d-7020-46ff-be92-5fa5113b9df7.png)  
 ## Spice Netlist
 ```
