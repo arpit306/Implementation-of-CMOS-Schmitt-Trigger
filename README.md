@@ -36,6 +36,7 @@ After creating the symbol of the design, testbench files were created as shown b
 
 ## Waveform 
 ▫️ When Sine Wave is given as input  
+_Vin = 1.5 V @ 5 KHz, simulation run for 2ms_
 ![wave](https://user-images.githubusercontent.com/68592620/155993731-b26054a4-e40c-4253-979b-15494440e9ff.png)  
 ▫️ When Triangular wave is given as input  
 ![wave](https://user-images.githubusercontent.com/68592620/155993796-98b83252-bc03-4a7c-a4aa-df0e17770693.png)  
