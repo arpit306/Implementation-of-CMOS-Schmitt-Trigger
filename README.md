@@ -32,7 +32,7 @@ In general, it works as an inverter which consists of two PMOS transistors, two 
 The schematic of the circuit design is shown below.  
 ![sch](https://user-images.githubusercontent.com/68592620/155992299-ae7f0f57-df20-4c63-bfda-c9fb64f57282.png)  
 After creating the symbol of the design, testbench files were created as shown below.
-![image](https://user-images.githubusercontent.com/68592620/155993422-995475b4-8016-40ed-9c27-69d8edf67937.png)
+![image](https://user-images.githubusercontent.com/68592620/155994427-7dc58278-f39d-4a12-9dc8-07d0c024b37a.png)
 
 ## Waveform 
 ▫️ When Sine Wave is given as input  
