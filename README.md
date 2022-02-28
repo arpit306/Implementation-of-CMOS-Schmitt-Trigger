@@ -143,7 +143,6 @@ v5 vin gnd! dc=0 pulse ( 0 1.5 0 60u 60u 0 120u )
 ▫️ [Synopsys India](https://www.synopsys.com/')  
 ▫️ [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/')  
 ▫️ Sumanto Kar, IIT Bombay  
-▫️ Chinmay Panda, IIT Hyderabad  
 ▫️ Shafali Jagga, IPEC Ghaziabad
 ## References
 1. Konjeti V K V L Pavan Kumar, K L University "Design and Analysis of CMOS Schmitt Trigger"
