@@ -30,7 +30,7 @@ __Reference Waveform:__
 In general, it works as an inverter which consists of two PMOS transistors, two NMOS transistors, one feedback PMOS transistor and one feedback NMOS transistor. The output is high when the input is below the negative threshold voltage, while the output is low if the input exceeds the positive threshold voltage. By calibrating the transistor’s performances and dimensions, the threshold voltages can be adjusted and controlled (PMOS and NMOS).
 ## Circuit Design
 The schematic of the circuit design is shown below.  
-![sch](https://user-images.githubusercontent.com/68592620/155992299-ae7f0f57-df20-4c63-bfda-c9fb64f57282.png)  
+![image](https://user-images.githubusercontent.com/68592620/156000621-7c48db60-f3fe-48a6-b6d8-600fc008598f.png)  
 After creating the symbol of the design, testbench files were created as shown below.
 ![image](https://user-images.githubusercontent.com/68592620/155994427-7dc58278-f39d-4a12-9dc8-07d0c024b37a.png)
 
