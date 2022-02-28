@@ -5,7 +5,7 @@ This repository presents the design of Schmitt Trigger implemented using Synopsy
 ▫️[Tools used](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#tool-used)  
 ▫️[Circuit Description](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#circuit-description)  
 ▫️[Circuit Design](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#circuit-design)  
-▫️[Waveform](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#waveform)  
+▫️[Waveforms](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#waveform)  
 ▫️[Spice Netlist](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#spice-netlist)  
 ▫️[Acknowledgement](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#acknowledgements)  
 ▫️[References](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#references)  
@@ -27,14 +27,14 @@ __Reference Waveform:__
 
 ![image](https://user-images.githubusercontent.com/68592620/155884536-068faa2c-0081-47d9-a8b9-af3cf728d736.png)
 
-In general, it works as an inverter which consists of two PMOS transistors, two NMOS transistors, one feedback PMOS transistor and one feedback NMOS transistor. The output is high when the input is below the negative threshold voltage, while the output is low if the input exceeds the positive threshold voltage. By calibrating the transistor’s performances and dimensions, the threshold voltages can be adjusted and controlled (PMOS and NMOS).
+In general, it works as an inverter which consists of two PMOS transistors, two NMOS transistors, one feedback PMOS transistor and one feedback NMOS transistor. The output is high when the input is below the negative threshold voltage, while the output is low if the input exceeds the positive threshold voltage. By calibrating the transistor’s performance and dimensions, the threshold voltages can be adjusted and controlled (PMOS and NMOS).
 ## Circuit Design
 The schematic of the circuit design is shown below.  
 ![image](https://user-images.githubusercontent.com/68592620/156000621-7c48db60-f3fe-48a6-b6d8-600fc008598f.png)  
 After creating the symbol of the design, testbench files were created as shown below.
 ![image](https://user-images.githubusercontent.com/68592620/155994427-7dc58278-f39d-4a12-9dc8-07d0c024b37a.png)
 
-## Waveform 
+## Waveforms 
 ▫️ When Sine Wave is given as input  
    _Vin = 1.5 V @ 5 KHz, simulation run for 2ms_  
 ![image](https://user-images.githubusercontent.com/68592620/155997839-cab9a442-2cab-41b4-a18a-8d900857af9e.png)  
