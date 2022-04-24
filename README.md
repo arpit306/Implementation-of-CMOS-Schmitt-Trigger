@@ -1,4 +1,4 @@
-# Implementation of CMOS Schmitt Trigger
+# Transient & DC Analysis of CMOS Schmitt Trigger
 This repository presents the design of Schmitt Trigger implemented using Synopsys Custom Compiler tool on 28nm CMOS Technology.
 ## Table of contents
 ▫️[Abstract](https://github.com/arpit306/Implementation-of-CMOS-Schmitt-Trigger/blob/main/README.md#abstract)  
